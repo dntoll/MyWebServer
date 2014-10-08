@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.4" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="se.lnu.http.HTTPRequest" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/HTTPRequest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="87" x="552" y="407"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="se.lnu.http.HTTPRequestParser" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/HTTPRequestParser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="126" x="492" y="333"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="se.lnu.http.HTTPServer" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/HTTPServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="78" x="780" y="111"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="se.lnu.http.Port" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/Port.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="54" x="536" y="185"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="se.lnu.http.HTTPServerConsole" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/HTTPServerConsole.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="125" x="605" y="37"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="se.lnu.http.IServerWatcher" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/IServerWatcher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="98" x="723" y="481"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </interface>  
+  <enumeration id="7" language="java" name="se.lnu.http.HTTPRequest.Method" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/HTTPRequest.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="54" x="606" y="481"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <class id="8" language="java" name="se.lnu.http.SharedFolder" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/SharedFolder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="85" x="947" y="185"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="se.lnu.http.AcceptThread" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/AcceptThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="89" x="651" y="185"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="se.lnu.http.HTTPReader" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/HTTPReader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="81" x="307" y="555"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="se.lnu.http.ClientSocket" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/ClientSocket.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="81" x="307" y="481"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="se.lnu.http.ClientThread" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/ClientThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="81" x="681" y="259"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <enumeration id="13" language="java" name="se.lnu.http.Header.HTTPHeader" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/Header.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="81" x="445" y="555"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <class id="14" language="java" name="se.lnu.http.Header" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/Header.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="54" x="449" y="481"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="se.lnu.http.exceptions.MalformedRequestException" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/exceptions/MalformedRequestException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="174" x="566" y="555"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="se.lnu.http.exceptions.NotADirectoryException" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/exceptions/NotADirectoryException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="148" x="41" y="185"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="se.lnu.http.exceptions.WrongNumberOfArgumentsException" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/exceptions/WrongNumberOfArgumentsException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="34" width="225" x="229" y="185"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="se.lnu.http.exceptions.InvalidPortException" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/exceptions/InvalidPortException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="126" x="515" y="259"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="se.lnu.http.exceptions.NotStartedException" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/exceptions/NotStartedException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="127" x="780" y="185"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="se.lnu.http.response.HTTP200OKFileResponse" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/response/HTTP200OKFileResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="156" x="190" y="407"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <enumeration id="21" language="java" name="se.lnu.http.response.ContentType" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/response/ContentType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="95" x="150" y="481"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </enumeration>  
+  <class id="22" language="java" name="se.lnu.http.response.HTTPResponse" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/response/HTTPResponse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="97" x="270" y="333"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="se.lnu.http.view.ConsoleView" project="MyWebServer" 
+    file="/MyWebServer/src/se/lnu/http/view/ConsoleView.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="34" width="82" x="475" y="111"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="false">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <association id="24">    
+    <bendpoint x="732" y="333"/>    
+    <bendpoint x="732" y="407"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="25" name="watcher"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="22"/>  
+  </generalization>  
+  <dependency id="28">    
+    <bendpoint x="480" y="407"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="29">    
+    <bendpoint x="669" y="407"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="30">    
+    <bendpoint x="397" y="333"/>    
+    <bendpoint x="397" y="407"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="31" name="clientSocket"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <bendpoint x="1062" y="185"/>    
+    <bendpoint x="1062" y="259"/>    
+    <bendpoint x="1062" y="333"/>    
+    <bendpoint x="1062" y="407"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="34" name="watcher"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="36">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <dependency id="37">    
+    <bendpoint x="690" y="333"/>    
+    <bendpoint x="690" y="407"/>    
+    <bendpoint x="690" y="481"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="38">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="39" name="watcher"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="41">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <association id="42">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="43" name="type"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="45">    
+    <bendpoint x="575" y="481"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="47">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="48" name="view"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="50">    
+    <bendpoint x="376" y="407"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="52">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="22"/>  
+  </dependency>  
+  <dependency id="55">    
+    <bendpoint x="587" y="111"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="56">    
+    <bendpoint x="418" y="407"/>    
+    <bendpoint x="418" y="481"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="57">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="58" name="requestType"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="60">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="61">    
+    <bendpoint x="521" y="407"/>    
+    <bendpoint x="533" y="481"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="62">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="63">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="64" name="acceptThread"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <bendpoint x="792" y="259"/>    
+    <bendpoint x="792" y="333"/>    
+    <bendpoint x="792" y="407"/>    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="67" name="observer"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="69">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="70">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="71" name="sharedDirectory"/>      
+      <multiplicity id="72" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="73">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="74">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="75" name="port"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="77">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="78">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="79" name="headers"/>      
+      <multiplicity id="80" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="81">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <realization id="82">    
+    <bendpoint x="484" y="185"/>    
+    <bendpoint x="484" y="259"/>    
+    <bendpoint x="669" y="333"/>    
+    <bendpoint x="711" y="407"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="83">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="84">    
+    <bendpoint x="648" y="333"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="85">    
+    <bendpoint x="159" y="407"/>    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="86">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="87">    
+    <bendpoint x="620" y="111"/>    
+    <bendpoint x="620" y="185"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="88">    
+    <bendpoint x="505" y="185"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="89">    
+    <bendpoint x="554" y="481"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="90">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+    accessors="true" visibility="false">    
+    <attributes public="false" package="false" protected="false" private="false" static="false"/>    
+    <operations public="false" package="false" protected="false" private="false" static="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
